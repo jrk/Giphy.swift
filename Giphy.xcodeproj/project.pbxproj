@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037DC2A51C000D7C008A5844 /* GiphyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = GiphyPlayground.playground; sourceTree = "<group>"; };
 		9403D7381A48962F008336A7 /* Giphy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Giphy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9403D73C1A48962F008336A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9403D73D1A48962F008336A7 /* Giphy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Giphy.h; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		9403D72E1A48962E008336A7 = {
 			isa = PBXGroup;
 			children = (
+				037DC2A51C000D7C008A5844 /* GiphyPlayground.playground */,
 				9403D73A1A48962F008336A7 /* Giphy */,
 				9403D7471A48962F008336A7 /* GiphyTests */,
 				9403D7391A48962F008336A7 /* Products */,
