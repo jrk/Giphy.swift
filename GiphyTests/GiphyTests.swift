@@ -46,6 +46,7 @@ class GiphyTests: XCTestCase {
 
 			XCTAssert($2 == nil, $2?.localizedDescription ?? "")
 			XCTAssert($0!.count == 1, "Results weren't one")
+            XCTAssert($0![0].gifMetadataForType(Giphy.Gif.ImageVersion.Original, still: false).width > 0)
 			dispatch_semaphore_signal(sema)
 		}
 

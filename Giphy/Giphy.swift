@@ -94,10 +94,10 @@ public class Giphy {
 			init(dict: [String: AnyObject]) {
 
 				URL = NSURL(string: dict["url"] as! String)!
-				width = dict["width"] as! Int
-				height = dict["height"] as! Int
-				size = dict["size"] as? Int
-				frames = dict["frames"] as? Int
+				width = (dict["width"] as! NSString).integerValue
+				height = (dict["height"] as! NSString).integerValue
+				size = (dict["size"] as? NSString)?.integerValue
+				frames = (dict["frames"] as? NSString)?.integerValue
 				if let mp4 = dict["mp4"] as? String {
 					mp4URL = NSURL(string: mp4)
                 } else {
